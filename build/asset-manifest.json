@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2def1ecd.chunk.css",
+    "main.js": "/static/js/main.112336c1.chunk.js",
+    "main.js.map": "/static/js/main.112336c1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.783d0821.js",
+    "runtime-main.js.map": "/static/js/runtime-main.783d0821.js.map",
+    "static/css/2.321bafaa.chunk.css": "/static/css/2.321bafaa.chunk.css",
+    "static/js/2.9cb20e0d.chunk.js": "/static/js/2.9cb20e0d.chunk.js",
+    "static/js/2.9cb20e0d.chunk.js.map": "/static/js/2.9cb20e0d.chunk.js.map",
+    "static/js/3.f1acb134.chunk.js": "/static/js/3.f1acb134.chunk.js",
+    "static/js/3.f1acb134.chunk.js.map": "/static/js/3.f1acb134.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.321bafaa.chunk.css.map": "/static/css/2.321bafaa.chunk.css.map",
+    "static/css/main.2def1ecd.chunk.css.map": "/static/css/main.2def1ecd.chunk.css.map",
+    "static/js/2.9cb20e0d.chunk.js.LICENSE.txt": "/static/js/2.9cb20e0d.chunk.js.LICENSE.txt",
+    "static/media/GoGroup.08d6439a.webp": "/static/media/GoGroup.08d6439a.webp",
+    "static/media/Personal.7a2b8c4a.jpg": "/static/media/Personal.7a2b8c4a.jpg",
+    "static/media/Priya-Kumari-Gupta-Resume.8b3daeaa.pdf": "/static/media/Priya-Kumari-Gupta-Resume.8b3daeaa.pdf",
+    "static/media/abhi.0d8b534d.jpg": "/static/media/abhi.0d8b534d.jpg",
+    "static/media/connect-dark.f2d6879f.png": "/static/media/connect-dark.f2d6879f.png",
+    "static/media/connect-light.310b15f3.png": "/static/media/connect-light.310b15f3.png",
+    "static/media/contact-dark.5c2b414d.svg": "/static/media/contact-dark.5c2b414d.svg",
+    "static/media/contact-light.b043be0a.svg": "/static/media/contact-light.b043be0a.svg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/hello-dark.04bc8959.png": "/static/media/hello-dark.04bc8959.png",
+    "static/media/hello-light.87c00d24.png": "/static/media/hello-light.87c00d24.png",
+    "static/media/readme-home.6bd4ee0c.png": "/static/media/readme-home.6bd4ee0c.png",
+    "static/media/skills-dark.797b633a.svg": "/static/media/skills-dark.797b633a.svg",
+    "static/media/skills-light.90685112.svg": "/static/media/skills-light.90685112.svg",
+    "static/media/starwars.0e6e6469.png": "/static/media/starwars.0e6e6469.png",
+    "static/media/weather-app.758d6711.png": "/static/media/weather-app.758d6711.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.783d0821.js",
+    "static/css/2.321bafaa.chunk.css",
+    "static/js/2.9cb20e0d.chunk.js",
+    "static/css/main.2def1ecd.chunk.css",
+    "static/js/main.112336c1.chunk.js"
+  ]
+}
