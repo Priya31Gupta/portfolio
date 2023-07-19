@@ -30,7 +30,7 @@ function Contact({ darkMode }) {
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        emailjs.send('service_4mgnmk', 'contact_form', templateParams)
+        emailjs.send('service_4mgnmk3', 'contact_form', templateParams)
             .then((response) => {
                 swal({
                     title: "Sent Successfully!",

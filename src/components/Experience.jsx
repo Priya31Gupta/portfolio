@@ -67,7 +67,7 @@ const Experience = ({darkMode}) => {
                                         <div className="flip-card-front">
                                             <Card.Img variant="top" src={abhi}/>
                                             <Card.Body>
-                                                <Card.Title align="center">Abhius clone</Card.Title>
+                                                <Card.Title align="center">Abhibus clone</Card.Title>
                                                 <Card.Text>
                                                     <p align="center">A web Application where you can book Train tickets, Bus tickets, and Hotels.</p>
                                                 
