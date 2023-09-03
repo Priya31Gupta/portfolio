@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.2def1ecd.chunk.css",
-    "main.js": "/static/js/main.274669bb.chunk.js",
-    "main.js.map": "/static/js/main.274669bb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.783d0821.js",
-    "runtime-main.js.map": "/static/js/runtime-main.783d0821.js.map",
+    "main.js": "/static/js/main.eb25f576.chunk.js",
+    "main.js.map": "/static/js/main.eb25f576.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.34060612.js",
+    "runtime-main.js.map": "/static/js/runtime-main.34060612.js.map",
     "static/css/2.321bafaa.chunk.css": "/static/css/2.321bafaa.chunk.css",
-    "static/js/2.fd8e86e1.chunk.js": "/static/js/2.fd8e86e1.chunk.js",
-    "static/js/2.fd8e86e1.chunk.js.map": "/static/js/2.fd8e86e1.chunk.js.map",
-    "static/js/3.f1acb134.chunk.js": "/static/js/3.f1acb134.chunk.js",
-    "static/js/3.f1acb134.chunk.js.map": "/static/js/3.f1acb134.chunk.js.map",
+    "static/js/2.f6af85f0.chunk.js": "/static/js/2.f6af85f0.chunk.js",
+    "static/js/2.f6af85f0.chunk.js.map": "/static/js/2.f6af85f0.chunk.js.map",
+    "static/js/3.9c7685e8.chunk.js": "/static/js/3.9c7685e8.chunk.js",
+    "static/js/3.9c7685e8.chunk.js.map": "/static/js/3.9c7685e8.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.321bafaa.chunk.css.map": "/static/css/2.321bafaa.chunk.css.map",
     "static/css/main.2def1ecd.chunk.css.map": "/static/css/main.2def1ecd.chunk.css.map",
-    "static/js/2.fd8e86e1.chunk.js.LICENSE.txt": "/static/js/2.fd8e86e1.chunk.js.LICENSE.txt",
+    "static/js/2.f6af85f0.chunk.js.LICENSE.txt": "/static/js/2.f6af85f0.chunk.js.LICENSE.txt",
     "static/media/GoGroup.08d6439a.webp": "/static/media/GoGroup.08d6439a.webp",
     "static/media/Personal.7a2b8c4a.jpg": "/static/media/Personal.7a2b8c4a.jpg",
-    "static/media/Priya-Kumari-Gupta-Resume.8b3daeaa.pdf": "/static/media/Priya-Kumari-Gupta-Resume.8b3daeaa.pdf",
+    "static/media/Priya-Kumari-Gupta-Resume.0377c927.pdf": "/static/media/Priya-Kumari-Gupta-Resume.0377c927.pdf",
     "static/media/abhi.0d8b534d.jpg": "/static/media/abhi.0d8b534d.jpg",
     "static/media/connect-dark.f2d6879f.png": "/static/media/connect-dark.f2d6879f.png",
     "static/media/connect-light.310b15f3.png": "/static/media/connect-light.310b15f3.png",
@@ -32,10 +32,10 @@
     "static/media/weather-app.758d6711.png": "/static/media/weather-app.758d6711.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.783d0821.js",
+    "static/js/runtime-main.34060612.js",
     "static/css/2.321bafaa.chunk.css",
-    "static/js/2.fd8e86e1.chunk.js",
+    "static/js/2.f6af85f0.chunk.js",
     "static/css/main.2def1ecd.chunk.css",
-    "static/js/main.274669bb.chunk.js"
+    "static/js/main.eb25f576.chunk.js"
   ]
 }
