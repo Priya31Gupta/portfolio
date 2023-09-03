@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import './styles.css';
 import connectLight from '../media/connect-light.png';
 import connectDark from '../media/connect-dark.png';
-import resume from '../media/PRIYA-KUMARI-GUPTA-RESUME.pdf';
+import resume from '../media/Priya-Kumari-Gupta-Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin,faTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
@@ -90,7 +90,7 @@ const About = ({darkMode}) => {
                         </Card.Text>
                         <a href={resume} target="_blank" rel="noreferrer noopener">
                         <Button variant={darkMode ? "outline-light sbtn2" : "outline-dark sbtn"} className='a'>
-                          <FontAwesomeIcon className="dark" size="lg" icon={faFile}/>  Resume
+                          <FontAwesomeIcon className="dark" size="lg" icon={faFile}/>  resume
                         </Button>
                         </a>
                        
