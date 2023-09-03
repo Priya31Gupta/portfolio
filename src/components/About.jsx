@@ -3,8 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import './styles.css';
 import connectLight from '../media/connect-light.png';
 import connectDark from '../media/connect-dark.png';
-import resume from '../media/Priya-Kumari-Gupta-Resume.pdf'
-
+import resume from '../media/PRIYA-KUMARI-GUPTA-RESUME.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin,faTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
