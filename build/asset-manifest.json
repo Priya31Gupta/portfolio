@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2def1ecd.chunk.css",
-    "main.js": "/static/js/main.eb25f576.chunk.js",
-    "main.js.map": "/static/js/main.eb25f576.chunk.js.map",
+    "main.js": "/static/js/main.736eed05.chunk.js",
+    "main.js.map": "/static/js/main.736eed05.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.34060612.js",
     "runtime-main.js.map": "/static/js/runtime-main.34060612.js.map",
     "static/css/2.321bafaa.chunk.css": "/static/css/2.321bafaa.chunk.css",
@@ -15,8 +15,8 @@
     "static/css/main.2def1ecd.chunk.css.map": "/static/css/main.2def1ecd.chunk.css.map",
     "static/js/2.f6af85f0.chunk.js.LICENSE.txt": "/static/js/2.f6af85f0.chunk.js.LICENSE.txt",
     "static/media/GoGroup.08d6439a.webp": "/static/media/GoGroup.08d6439a.webp",
-    "static/media/Personal.7a2b8c4a.jpg": "/static/media/Personal.7a2b8c4a.jpg",
-    "static/media/Priya-Kumari-Gupta-Resume.0377c927.pdf": "/static/media/Priya-Kumari-Gupta-Resume.0377c927.pdf",
+    "static/media/Personal.86ecf6e9.png": "/static/media/Personal.86ecf6e9.png",
+    "static/media/Priya-Kumari-Gupta-Resume.0cc732e4.pdf": "/static/media/Priya-Kumari-Gupta-Resume.0cc732e4.pdf",
     "static/media/abhi.0d8b534d.jpg": "/static/media/abhi.0d8b534d.jpg",
     "static/media/connect-dark.f2d6879f.png": "/static/media/connect-dark.f2d6879f.png",
     "static/media/connect-light.310b15f3.png": "/static/media/connect-light.310b15f3.png",
@@ -36,6 +36,6 @@
     "static/css/2.321bafaa.chunk.css",
     "static/js/2.f6af85f0.chunk.js",
     "static/css/main.2def1ecd.chunk.css",
-    "static/js/main.eb25f576.chunk.js"
+    "static/js/main.736eed05.chunk.js"
   ]
 }
