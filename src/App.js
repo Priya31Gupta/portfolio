@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Home, About, Skills, Experience, Contact, Footer } from './components'
+import { Home, About, Skills, Experience, Contact, Footer, Projects } from './components'
 import { useState } from "react";
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
@@ -20,14 +20,14 @@ function App() {
     <Router>
       <div className="App" data-theme={darkMode ? "dark" : "light"}>
         <Route path="/">
-          <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
+          <Navbar expand="lg" className="navbar fixed-top" data-theme={darkMode ? "dark" : "light"}>
             <Navbar.Brand href="#home" className="navname">Welcome!</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link href="#about" className="link">About me</Nav.Link>
                     <Nav.Link href="#experience" className="link">Experience</Nav.Link>
-                    <Nav.Link href="#experience" className="link">Projects</Nav.Link>
+                    <Nav.Link href="#project" className="link">Projects</Nav.Link>
                     <Nav.Link href="#contact" className="link">Contact</Nav.Link>
                     <Nav.Link href={resume} target="_blank" rel="noreferrer noopener"
                     className="link">Resume</Nav.Link>
@@ -49,6 +49,9 @@ function App() {
           </div>
           <div id="experience">
           <Experience darkMode={darkMode} />
+          </div>
+          <div id="project">
+          <Projects darkMode={darkMode} />
           </div>
           <div id="contact">
           <Contact darkMode={darkMode} />  

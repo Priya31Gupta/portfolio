@@ -64,7 +64,7 @@ function Contact({ darkMode }) {
                         <img src={darkMode ? contactDark : contactLight} alt="contact" className="contact-img img-fluid" />
                     </Col>
                     <Col lg={7} style={{ marginLeft: "42%", marginTop: "-30%" }}>
-                            <br></br>
+                            <br></br><br></br>
                         <Form className='form' onSubmit={e => onSubmit(e)}>
                         <Form.Group>
                             <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="ph name" type="name" placeholder="Enter your name" />
@@ -81,28 +81,28 @@ function Contact({ darkMode }) {
                     
                 </Row>
                 <Row style={{justifyContent:'center'}}>
-                    <Col lg={1}>
+                    <Col lg={1} sm={4}>
                         <a href="https://github.com/Priya31g" target="_blank" rel="noreferrer noopener">
                             <Button variant={darkMode ? "outline-light " : "outline-dark sbtn"} target="_blank" rel="noreferrer noopener" style={{ margin: "1% 3%" }} className="skills-btn">
                                 <FontAwesomeIcon className="skill" size='2x' icon={faGithub} />
                             </Button>
                         </a>
                     </Col>
-                    <Col lg={1}>
+                    <Col lg={1} sm={4}>
                         <a href="https://www.linkedin.com/in/priya-kumari-gupta/" target="_blank" rel="noreferrer noopener">
                             <Button variant={darkMode ? "outline-light" : "outline-dark sbtn"} target="_blank" rel="noreferrer noopener" style={{ margin: "1% 3%" }} className="skills-btn">
                                 <FontAwesomeIcon className="skill" size='2x' icon={faLinkedin} />
                             </Button>
                         </a>
                     </Col>
-                    <Col lg={1}>
+                    <Col lg={1} sm={4}>
                         <a href="https://twitter.com/Priya31g" target="_blank" rel="noreferrer noopener">
                             <Button variant={darkMode ? "outline-light" : "outline-dark sbtn"} target="_blank" rel="noreferrer noopener" style={{ margin: "1% 3%" }} className="skills-btn">
                                 <FontAwesomeIcon className="skill" size='2x' icon={faTwitter} />
                             </Button>
                         </a>
                     </Col>
-                    <Col lg={1}>
+                    <Col lg={1} sm={4}>
                         <a href="mailto:priyakumarigupta790@gmail.com" >
                             <Button variant={darkMode ? "outline-light" : "outline-dark sbtn"} className="skills-btn" style={{ marginTop: '0' }}>
                                 {/* <p align="center" style={{ fontSize: "23px", marginBottom: "0%" }} className="skill-txt">

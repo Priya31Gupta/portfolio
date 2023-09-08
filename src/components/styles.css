@@ -79,7 +79,7 @@
 
 .lead{
     color: var(--description);
-    font-size: xx-large;
+    font-size: 30px;
     font-weight: 300;
 }
 code{
