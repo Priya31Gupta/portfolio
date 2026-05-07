@@ -46,12 +46,17 @@ const Experience = ({darkMode}) => {
                                             </Card.Body>
                                         </div>
                                         <div className="flip-card-back">
-                                            <p>Domain - Web Development</p>
-                                            <p>Designed and developed multiple web applications using Angular, Ruby on Rails and React, resulting in improved user engagement and satisfaction</p>
                                             <p>
-                                            Accelerated development time by 20% using (Scrum) Agile Methodology.
+                                                Built scalable frontend features using React and Angular for enterprise web applications.
                                             </p>
-                                            <p>Worked closely with the UX/UI team to ensure that all applications were user-friendly and responsive across all devices.</p>
+
+                                            <p>
+                                                Improved application responsiveness and optimized UI performance for better user experience.
+                                            </p>
+
+                                            <p>
+                                                Collaborated with developers and designers in Agile Scrum environments to deliver production-ready features.
+                                            </p>
                                         </div> 
                                     </div>
                                 </div>

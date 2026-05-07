@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAdjust } from '@fortawesome/free-solid-svg-icons'
 import './components/styles.css'
-import resume from './media/PRIYA-KUMARI-GUPTA-RESUME.pdf'
+import resume from './media/Priya_Kumari_Gupta_Resume.pdf'
 function App() {
 
   const [darkMode, setDarkMode] = useState(false);

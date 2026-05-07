@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import './styles.css';
 import connectLight from '../media/connect-light.png';
 import connectDark from '../media/connect-dark.png';
-import resume from '../media/PRIYA-KUMARI-GUPTA-RESUME.pdf';
+import resume from '../media/Priya_Kumari_Gupta_Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin,faTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
@@ -108,9 +108,9 @@ const About = ({darkMode}) => {
                           </Button>
                         </a>
                         <br/>
-                        <a href="https://github.com/Priya31g" target="_blank" rel="noreferrer noopener">
+                        <a href="https://github.com/Priya31Gupta" target="_blank" rel="noreferrer noopener">
                           <Button variant={darkMode ? "outline-light sbtn2 contact-btn" : "outline-dark sbtn contact-btn"}>
-                            <FontAwesomeIcon className="dark" size="lg" icon={faGithub}/> Priya31g
+                            <FontAwesomeIcon className="dark" size="lg" icon={faGithub}/> Priya31Gupta
                           </Button>
                         </a>
                         <br/>

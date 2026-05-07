@@ -1,16 +1,15 @@
 import { useState, React } from 'react'
 import { Zoom, Fade } from 'react-awesome-reveal'
 
-import starwars from "../media/starwars.png"
-
 import tcd from '../media/weather-app.png'
 import Container from 'react-bootstrap/esm/Container'
 import Button from 'react-bootstrap/esm/Button'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
 import Card from 'react-bootstrap/esm/Card'
-import abhi from "../media/abhi.jpg";
 import cafeSerendipity from "../media/readme-home.png";
+import cinestream from "../media/Cinestream.png";
+import infiniteScroll from "../media/infiniteScroll.png";
 
 const Projects = ({darkMode}) => {
 
@@ -36,35 +35,36 @@ const Projects = ({darkMode}) => {
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div className="flip-card-front">
-                                            <Card.Img variant="top" src={abhi}/>
+                                            <Card.Img variant="top" src={cinestream}/>
                                             <Card.Body>
-                                                <Card.Title align="center">Abhibus clone</Card.Title>
+                                                <Card.Title align="center">Cinestream</Card.Title>
                                                 <Card.Text>
-                                                    <p align="center">A web Application where you can book Train tickets, Bus tickets, and Hotels.</p>
+                                                    <p align="center">A Netflix clone created for learning purposes using Next.js, JSON Web Token , Magic SDK, Hasura GraphQL, and Framer Motion.</p>
                                                 
                                                 </Card.Text>
                                             </Card.Body>
                                         </div>
                                         <div className="flip-card-back">
-                                            <p>A web Application where you can book Train tickets, Bus tickets, and Hotels
-                                            <br></br>It has all the basic sorting, filtering function.
-                                            <br/>
-                                            A Collaborative Project built by a team of four members.
+                                            <p>
+                                                Developed a full-stack Netflix-inspired streaming platform with authentication, dynamic movie browsing, and responsive UI using React.js and modern web technologies.
                                             </p>
+
                                             <br/>
-                                                    <h4>Tech Stack</h4>
-                                            <p> ReactJS | Express |  HTML | MongoDB | Mongoose |CSS | JavaScript</p>
-                                        
+                                            <h4>Tech Stack</h4>
+                                            <p>
+                                                React.js| JavaScript| CSS| Firebase/API Integration| Responsive Design
+                                            </p>
+                                
                                         </div> 
                                     </div>
                                 </div>
                             </center>
                             <br></br>
                             <div>
-                                <a href="https://abhi-bus-clone.vercel.app/" target="_blank" rel="noreferrer noopener">
+                                <a href="https://cinestream-delta.vercel.app/login/" target="_blank" rel="noreferrer noopener">
                                     <Button variant={darkMode ? "outline-light sbtn2" : "outline-dark sbtn"} className="sbtn">View Project</Button>
                                 </a>
-                                <a href="https://github.com/Priya31g/abhibus-clone" target="_blank" rel="noreferrer noopener">
+                                <a href="https://github.com/Priya31Gupta/netflix-clone" target="_blank" rel="noreferrer noopener">
                                     <Button variant={darkMode ? "outline-light sbtn2" : "outline-dark sbtn"} className="sbtn">View Github Repo</Button>
                                 </a>
                             </div>
@@ -120,19 +120,19 @@ const Projects = ({darkMode}) => {
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div className="flip-card-front">
-                                            <Card.Img variant="top"  src={starwars}/>
+                                            <Card.Img variant="top"  src={infiniteScroll}/>
                                             <Card.Body>
-                                                <Card.Title align="center">Star Wars Character Details</Card.Title>
+                                                <Card.Title align="center">Infinite Scroll Media Feed</Card.Title>
                                                 <Card.Text>
-                                                    <p align="center">While learning fetch api , I am building a web app to get personal details of all actors who played the characters.</p>
+                                                    <p align="center">A high-performance infinite scrolling interface with dynamic API data loading, optimized rendering, and responsive UI behavior.</p>
                                                 </Card.Text>
                                             </Card.Body>
                                         </div>
                                         <div className="flip-card-back">
-                                            <p>Planned the UI for website and designed frontend using only HTML ans CSS.
+                                            <p>Planned the UI for website and designed frontend using only HTML, CSS and JavaScript.
                                             <br></br>
                                             <br></br>
-                                            Built the web page in just 2 days.
+                                                Built the web page in just 2 days.
                                             <br/>
                                             <h4>Tech Stack</h4>
                                             <p> Node js | HTML | CSS | JavaScript</p>
@@ -143,10 +143,10 @@ const Projects = ({darkMode}) => {
                             </center>
                             <br></br>
                             <div> 
-                            <a href="https://star-wars-character-details-clone-29j6q55hh-priyakumarigupta.vercel.app" target="_blank" rel="noreferrer noopener">
+                            <a href="https://infinite-scroll-theta.vercel.app/" target="_blank" rel="noreferrer noopener">
                                     <Button variant={darkMode ? "outline-light sbtn2" : "outline-dark sbtn"} className="sbtn">View Project</Button>
                                 </a>  
-                            <a href="https://github.com/Priya31g/Star-Wars" target="_blank" rel="noreferrer noopener">
+                            <a href="https://github.com/Priya31Gupta/infiniteScroll" target="_blank" rel="noreferrer noopener">
                                 <Button variant={darkMode ? "outline-light sbtn2" : "outline-dark sbtn"} className="sbtn">View Github Repo</Button>
                                 </a>
                             
@@ -184,10 +184,10 @@ const Projects = ({darkMode}) => {
                             </center>
                             <br></br>
                             <div>
-                                <a href="https://abhi-bus-clone.vercel.app/" target="_blank" rel="noreferrer noopener">
+                                <a href="https://whether-web.vercel.app/" target="_blank" rel="noreferrer noopener">
                                     <Button variant={darkMode ? "outline-light sbtn2" : "outline-dark sbtn"} className="sbtn">View Project</Button>
                                 </a>
-                                <a href="https://github.com/Priya31g/abhibus-clone" target="_blank" rel="noreferrer noopener">
+                                <a href="https://github.com/Priya31Gupta/whether-web" target="_blank" rel="noreferrer noopener">
                                     <Button variant={darkMode ? "outline-light sbtn2" : "outline-dark sbtn"} className="sbtn">View Github Repo</Button>
                                 </a>
                             </div>

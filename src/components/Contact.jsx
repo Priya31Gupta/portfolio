@@ -1,4 +1,4 @@
-import { useState, React } from 'react';
+import { useState, React, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import swal from 'sweetalert';
 import contactLight from '../media/contact-light.svg';
@@ -13,9 +13,9 @@ import {  faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-i
 import mail from "../media/mail.png"
 
 function Contact({ darkMode }) {
-    (function () {
+    useEffect(() => {
         emailjs.init("5Fuqf6p70pms79UWs");
-    })();
+    }, []);
     const [templateParams, setTemplateParams] = useState({
         from_name: '',
         message: '',
@@ -45,10 +45,12 @@ function Contact({ darkMode }) {
                 });
             });
         
-        setTemplateParams({
-            from_name: '',
-            message: ''
-        });
+       setTemplateParams({
+    from_name: '',
+    from_email: '',
+    message: '',
+    to_email: 'priyakumarigupta790@gmail.com',
+});
     };
 
     return (
@@ -82,7 +84,7 @@ function Contact({ darkMode }) {
                 </Row>
                 <Row style={{justifyContent:'center'}}>
                     <Col lg={1} sm={4}>
-                        <a href="https://github.com/Priya31g" target="_blank" rel="noreferrer noopener">
+                        <a href="https://github.com/Priya31Gupta" target="_blank" rel="noreferrer noopener">
                             <Button variant={darkMode ? "outline-light " : "outline-dark sbtn"} target="_blank" rel="noreferrer noopener" style={{ margin: "1% 3%" }} className="skills-btn">
                                 <FontAwesomeIcon className="skill" size='2x' icon={faGithub} />
                             </Button>
@@ -96,7 +98,7 @@ function Contact({ darkMode }) {
                         </a>
                     </Col>
                     <Col lg={1} sm={4}>
-                        <a href="https://twitter.com/Priya31g" target="_blank" rel="noreferrer noopener">
+                        <a href="https://github.com/Priya31Gupta" target="_blank" rel="noreferrer noopener">
                             <Button variant={darkMode ? "outline-light" : "outline-dark sbtn"} target="_blank" rel="noreferrer noopener" style={{ margin: "1% 3%" }} className="skills-btn">
                                 <FontAwesomeIcon className="skill" size='2x' icon={faTwitter} />
                             </Button>
